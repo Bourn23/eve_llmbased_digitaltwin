@@ -12,8 +12,16 @@ const dashboard = {
     type: 'group',
     children: [
         {
+            id: 'assistants',
+            title: 'Model Generator',
+            type: 'item',
+            url: '/assistants',
+            icon: icons.IconRobot,
+            breadcrumbs: true
+        },
+        {
             id: 'chatflows',
-            title: 'Chatflows',
+            title: 'Model Generator (advanced)',
             type: 'item',
             url: '/chatflows',
             icon: icons.IconHierarchy,
@@ -33,14 +41,6 @@ const dashboard = {
             type: 'item',
             url: '/tools',
             icon: icons.IconTool,
-            breadcrumbs: true
-        },
-        {
-            id: 'assistants',
-            title: 'Assistants',
-            type: 'item',
-            url: '/assistants',
-            icon: icons.IconRobot,
             breadcrumbs: true
         },
         {
