@@ -408,15 +408,15 @@ const ShareChatbot = ({ isSessionMemory }) => {
                     />
                 </div>
             </Stack>
-            {textField(title, 'title', 'Title', 'string', 'Flowise Assistant')}
+            {textField(title, 'title', 'Title', 'string', 'EVE: Farm 01')}
             {textField(
                 titleAvatarSrc,
                 'titleAvatarSrc',
                 'Title Avatar Link',
                 'string',
-                `https://raw.githubusercontent.com/FlowiseAI/Flowise/main/assets/FloWiseAI_dark.png`
+                `https://raw.githubusercontent.com/bourn23/eve_llmbsaed_digitaltwin/main/assets/eve_logo.png`
             )}
-            {textField(welcomeMessage, 'welcomeMessage', 'Welcome Message', 'string', 'Hello! This is custom welcome message')}
+            {textField(welcomeMessage, 'welcomeMessage', 'Welcome Message', 'string', 'Hello! This is a custom model for your asset.')}
             {colorField(backgroundColor, 'backgroundColor', 'Background Color')}
             {textField(fontSize, 'fontSize', 'Font Size', 'number')}
             {colorField(poweredByTextColor, 'poweredByTextColor', 'PoweredBy TextColor')}
