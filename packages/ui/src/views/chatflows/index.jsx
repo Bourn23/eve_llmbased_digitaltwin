@@ -138,7 +138,7 @@ const Chatflows = () => {
                             width: '100%'
                         }}
                     >
-                        <h1>Chatflows</h1>
+                        <h1>Models</h1>
                         <TextField
                             size='small'
                             sx={{ display: { xs: 'none', sm: 'block' }, ml: 3 }}
@@ -209,7 +209,7 @@ const Chatflows = () => {
                     <Box sx={{ p: 2, height: 'auto' }}>
                         <img style={{ objectFit: 'cover', height: '30vh', width: 'auto' }} src={WorkflowEmptySVG} alt='WorkflowEmptySVG' />
                     </Box>
-                    <div>No Chatflows Yet</div>
+                    <div>No Models Yet</div>
                 </Stack>
             )}
             <LoginDialog show={loginDialogOpen} dialogProps={loginDialogProps} onConfirm={onLoginClick} />

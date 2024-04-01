@@ -83,7 +83,7 @@ const APICodeDialog = ({ show, dialogProps, onCancel }) => {
     const navigate = useNavigate()
     const dispatch = useDispatch()
 
-    const codes = ['Embed', 'Python', 'JavaScript', 'cURL', 'Share Chatbot']
+    const codes = ['Python', 'JavaScript', 'cURL', 'Share Chatbot'] // 'Embed', // have to update the CDN ...
     const [value, setValue] = useState(0)
     const [keyOptions, setKeyOptions] = useState([])
     const [apiKeys, setAPIKeys] = useState([])
@@ -257,8 +257,8 @@ query({"question": "Hey, how are you?"}).then((response) => {
             return pythonSVG
         } else if (codeLang === 'JavaScript') {
             return javascriptSVG
-        } else if (codeLang === 'Embed') {
-            return EmbedSVG
+        // } else if (codeLang === 'Embed') {
+        //     return EmbedSVG
         } else if (codeLang === 'cURL') {
             return cURLSVG
         } else if (codeLang === 'Share Chatbot') {

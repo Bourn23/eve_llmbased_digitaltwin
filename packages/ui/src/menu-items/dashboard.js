@@ -21,7 +21,7 @@ const dashboard = {
         },
         {
             id: 'chatflows',
-            title: 'Model Generator (advanced)',
+            title: 'Advanced Model Generator',
             type: 'item',
             url: '/chatflows',
             icon: icons.IconHierarchy,

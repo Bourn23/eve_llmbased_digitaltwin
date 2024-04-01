@@ -279,7 +279,7 @@ const EmbedChat = ({ chatflowid }) => {
             <div style={{ marginTop: 10 }}></div>
             {codes.map((codeLang, index) => (
                 <TabPanel key={index} value={value} index={index}>
-                    {(value === 0 || value === 1) && (
+                    {/* {(value === 0 || value === 1) && (
                         <>
                             <span>
                                 Paste this anywhere in the <code>{`<body>`}</code> tag of your html file.
@@ -297,7 +297,7 @@ const EmbedChat = ({ chatflowid }) => {
                             </span>
                             <div style={{ height: 10 }}></div>
                         </>
-                    )}
+                    )} */}
                     <CopyBlock theme={atomOneDark} text={getCode(codeLang)} language='javascript' showLineNumbers={false} wrapLines />
 
                     <CheckboxInput label='Show Embed Chat Config' value={embedChatCheckboxVal} onChange={onCheckBoxEmbedChatChanged} />
