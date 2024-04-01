@@ -55,4 +55,4 @@
     Any code changes will reload the app automatically on [http://localhost:8080](http://localhost:8080)
 
 ###  Acknowledgements
-This project heavily relies on reactflow[https://reactflow.dev/] and flowise[https://github.com/FlowiseAI/] projects.
+This project heavily relies on [reactflow](https://reactflow.dev/) and [flowise](https://github.com/FlowiseAI/) projects.
